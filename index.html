@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="buger">
+            <div class="buger-top">
+                <img src="./images/buger-top.JPG" alt="">
+            </div>
+            <div class="buger-body">
+                <!-- <div class="bacon">
+                    <img src="./images/bacon.JPG" alt="">
+                </div>
+                <div class="cheese"></div>
+                <div class="steak"></div>
+                <div class="salad">
+                    <img src="./images/salad.JPG" alt="">
+                </div> -->
+            </div>
+            <div class="buger-bottom">
+                <img src="./images/buger-bottom.JPG" alt="">
+            </div>
+        </div>
+    
+        <div class="form">
+            <div>
+                <span>steak</span>
+                <div class="actions">
+                    <button type="button" onClick="removeIngredient('steak')">Less</button>
+                    <button type="button" onClick="addIngredient('steak')">More</button>
+                </div>
+            </div>
+    
+            <div>
+                <span>Salad</span>
+                <div class="actions">
+                    <button type="button" onClick="removeIngredient('salad')">Less</button>
+                    <button type="button" onClick="addIngredient('salad')">More</button>
+                </div>
+            </div>
+    
+            <div>
+                <span>cheese</span>
+                <div class="actions">
+                    <button type="button" onClick="removeIngredient('cheese')">Less</button>
+                    <button type="button" onClick="addIngredient('cheese')">More</button>
+                </div>
+            </div>
+    
+            <div>
+                <span>bacon</span>
+                <div class="actions">
+                    <button type="button" onClick="removeIngredient('bacon')">Less</button>
+                    <button type="button" onClick="addIngredient('bacon')">More</button>
+                </div>
+            </div>
+    
+            <div class="order">
+                <button type="button">Order</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
